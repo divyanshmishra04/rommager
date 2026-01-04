@@ -19,7 +19,7 @@ out/
 .smarttomcat/
 
 # ===============================
-# Eclipse (just in case)
+# Eclipse
 # ===============================
 .classpath
 .project
@@ -40,4 +40,8 @@ Thumbs.db
 # Environment / Secrets
 # ===============================
 .env
-*.properties
+
+# ❗ DO NOT ignore all .properties
+# Ignore only secret configs if needed
+application-secret.properties
+db-secret.properties
